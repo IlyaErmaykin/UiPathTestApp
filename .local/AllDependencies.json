@@ -999,9 +999,9 @@
     "restore": {
       "projectUniqueName": "TestApp",
       "projectName": "TestApp",
-      "projectPath": "D:\\users\\IErmaykin\\Documents\\UiPath\\TestApp\\.local",
+      "projectPath": "D:\\Projects\\UiPathTestApp\\.local",
       "packagesPath": "D:\\users\\IErmaykin\\.nuget\\packages\\",
-      "outputPath": "D:\\users\\IErmaykin\\Documents\\UiPath\\TestApp\\.local"
+      "outputPath": "D:\\Projects\\UiPathTestApp\\.local"
     },
     "frameworks": {
       "net461": {
@@ -1029,14 +1029,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU3034",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.SignalR.Client 2.4.0' from source 'D:\\users\\IErmaykin\\AppData\\Local\\UiPath\\app-19.4.2\\Packages': This package is signed but not by a trusted signer.",
-      "libraryId": "Microsoft.AspNet.SignalR.Client"
-    }
-  ]
+  }
 }
