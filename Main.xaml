@@ -46,60 +46,88 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart sap:VirtualizedContainerService.HintSize="614,636" sap2010:WorkflowViewState.IdRef="Flowchart_2">
+  <Flowchart DisplayName="MASTER Flowchart" sap:VirtualizedContainerService.HintSize="614,636" sap2010:WorkflowViewState.IdRef="Flowchart_2">
     <Flowchart.Variables>
-      <Variable x:TypeArguments="x:String" Default="what's up world" Name="myMessageToTheWorld" />
+      <Variable x:TypeArguments="x:Int32" Default="2013" Name="year" />
     </Flowchart.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">False</x:Boolean>
         <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
         <av:Size x:Key="ShapeSize">60,74.6666666666667</av:Size>
-        <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,107.166666666667 299.895,107.166666666667 299.895,117.166666666667</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,107.166666666667 170,107.166666666667 170,193.666666666667</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
-      <x:Reference>__ReferenceID1</x:Reference>
+      <x:Reference>__ReferenceID3</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID0">
+    <FlowStep x:Name="__ReferenceID3">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">195.333333333333,303.666666666667</av:Point>
-          <av:Size x:Key="ShapeSize">209.333333333333,52.6666666666667</av:Size>
+          <av:Point x:Key="ShapeLocation">46.3333333333333,193.666666666667</av:Point>
+          <av:Size x:Key="ShapeSize">247.333333333333,52.6666666666667</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:MessageBox ChosenButton="{x:Null}" Buttons="Ok" Caption="My first message box" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="209.333333333333,52.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[myMessageToTheWorld]" TopMost="True">
+      <Flowchart DisplayName="Flowchart leap year " sap:VirtualizedContainerService.HintSize="247.333333333333,52.6666666666667" sap2010:WorkflowViewState.IdRef="Flowchart_3">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+            <av:Size x:Key="ShapeSize">60,74.6666666666667</av:Size>
+            <av:PointCollection x:Key="ConnectorLocation">300,77.1666666666667 300,146.666666666667</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-      </ui:MessageBox>
-    </FlowStep>
-    <FlowStep x:Name="__ReferenceID1">
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <av:Point x:Key="ShapeLocation">178.895,117.166666666667</av:Point>
-          <av:Size x:Key="ShapeSize">242,62</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">299.895,179.166666666667 299.895,209.166666666667 300,209.166666666667 300,303.666666666667</av:PointCollection>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="242,62" sap2010:WorkflowViewState.IdRef="Assign_1">
-        <Assign.To>
-          <OutArgument x:TypeArguments="x:String">[myMessageToTheWorld]</OutArgument>
-        </Assign.To>
-        <Assign.Value>
-          <InArgument x:TypeArguments="x:String">Other, new value</InArgument>
-        </Assign.Value>
-        <sap:WorkflowViewStateService.ViewState>
-          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          </scg:Dictionary>
-        </sap:WorkflowViewStateService.ViewState>
-      </Assign>
-      <FlowStep.Next>
+        <Flowchart.StartNode>
+          <x:Reference>__ReferenceID2</x:Reference>
+        </Flowchart.StartNode>
+        <FlowDecision x:Name="__ReferenceID2" Condition="[year mod  4 = 0]" DisplayName="Flow Decision" sap:VirtualizedContainerService.HintSize="78.6666666666667,86.6666666666667" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <av:Point x:Key="ShapeLocation">260.666666666667,146.666666666667</av:Point>
+              <av:Size x:Key="ShapeSize">78.6666666666667,86.6666666666667</av:Size>
+              <av:PointCollection x:Key="FalseConnector">339.333333333333,190 369.333333333333,190 369.333333333333,190.353333333333 389.333333333333,190.353333333333</av:PointCollection>
+              <av:PointCollection x:Key="TrueConnector">260.666666666667,190 140,190 140,253.666666666667</av:PointCollection>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <FlowDecision.True>
+            <FlowStep x:Name="__ReferenceID0">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <av:Point x:Key="ShapeLocation">35.3333333333333,253.666666666667</av:Point>
+                  <av:Size x:Key="ShapeSize">209.333333333333,52.6666666666667</av:Size>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="209.333333333333,52.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;This is a leap year&quot;]" TopMost="True">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:MessageBox>
+            </FlowStep>
+          </FlowDecision.True>
+          <FlowDecision.False>
+            <FlowStep x:Name="__ReferenceID1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <av:Point x:Key="ShapeLocation">389.333333333333,164.02</av:Point>
+                  <av:Size x:Key="ShapeSize">209.333333333333,52.6666666666667</av:Size>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="209.333333333333,52.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_3" Text="[&quot;This one isn't&quot;]" TopMost="True">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:MessageBox>
+            </FlowStep>
+          </FlowDecision.False>
+        </FlowDecision>
         <x:Reference>__ReferenceID0</x:Reference>
-      </FlowStep.Next>
+        <x:Reference>__ReferenceID1</x:Reference>
+      </Flowchart>
     </FlowStep>
   </Flowchart>
 </Activity>
