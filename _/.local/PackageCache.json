@@ -1,0 +1,335 @@
+{
+  "Packages": [
+    {
+      "Package": {
+        "Id": "UiPath.Excel.Activities",
+        "Version": "2.5.3"
+      },
+      "Assemblies": [
+        "D:\\users\\IErmaykin\\.nuget\\packages\\closedxml/0.87.1\\lib/net40/ClosedXML.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\documentformat.openxml/2.5.0\\lib/DocumentFormat.OpenXml.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\microsoft.visualstudio.ole.interop/7.10.6071\\lib/Microsoft.VisualStudio.OLE.Interop.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OOXML.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXml4Net.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.OpenXmlFormats.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\npoi/2.4.1\\lib/net45/NPOI.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\sharpziplib/1.0.0\\lib/net45/ICSharpCode.SharpZipLib.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.excel.activities/2.5.3\\lib/net452/UiPath.Excel.Activities.Design.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.excel.activities/2.5.3\\lib/net452/UiPath.Excel.Activities.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.excel.activities/2.5.3\\lib/net452/UiPath.Excel.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Mail.Activities",
+        "Version": "1.4.0"
+      },
+      "Assemblies": [
+        "D:\\users\\IErmaykin\\.nuget\\packages\\bouncycastle/1.8.1\\lib/BouncyCastle.Crypto.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\interop.domino.dll/1.0.0\\lib/Interop.Domino.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\microsoft.exchange.webservices/2.2.0\\lib/40/Microsoft.Exchange.WebServices.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/MailKit.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/MimeKit.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/UiPath.Mail.Activities.Design.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/UiPath.Mail.Activities.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.mail.activities/1.4.0\\lib/net452/UiPath.Mail.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.System.Activities",
+        "Version": "18.3.6897.22524"
+      },
+      "Assemblies": [
+        "D:\\users\\IErmaykin\\.nuget\\packages\\csvhelper/2.13.5\\lib/net40-client/CsvHelper.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\microsoft.rest.clientruntime/2.3.10\\lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\newtonsoft.json/10.0.3\\lib/net45/Newtonsoft.Json.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/UiPath.OrchestratorClient.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/UiPath.System.Activities.Design.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.system.activities/18.3.6897.22524\\lib/net461/UiPath.System.Activities.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.UIAutomation.Activities",
+        "Version": "18.3.6897.22543"
+      },
+      "Assemblies": [
+        "D:\\users\\IErmaykin\\.nuget\\packages\\avalonedit/5.0.3\\lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\caliburn.micro/3.0.1\\lib/net45/Caliburn.Micro.Platform.Core.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\caliburn.micro/3.0.1\\lib/net45/Caliburn.Micro.Platform.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\caliburn.micro/3.0.1\\lib/net45/System.Windows.Interactivity.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\caliburn.micro.core/3.0.1\\lib/net45/Caliburn.Micro.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.DataGrid.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\extended.wpf.toolkit/2.8.0\\lib/net40/Xceed.Wpf.Toolkit.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\humanizer.core/2.4.2\\lib/netstandard2.0/Humanizer.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath/9.0.6893.27943\\lib/UiPath.Interop.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.Docking.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.Editors.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.Ribbon.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.Shared.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.SyntaxEditor.Addons.DotNet.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.SyntaxEditor.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.Text.Addons.DotNet.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.Text.LLParser.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.Text.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/ActiproSoftware.Wizard.Wpf.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/UiPath.UIAutomation.Activities.Design.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/UiPath.UiAutomation.Activities.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.uiautomation.activities/18.3.6897.22543\\lib/net461/UiPath.Wizards.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.vision/1.1.0\\lib/net452/UiPath.Vision.Core.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.vision/1.1.0\\lib/net452/UiPath.Vision.Package.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.vision/1.1.0\\lib/net452/UiPath.Vision.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.Credentials.Activities",
+        "Version": "1.1.6479.13204"
+      },
+      "Assemblies": [
+        "D:\\users\\IErmaykin\\.nuget\\packages\\credentialmanagement/1.0.2\\lib/net35/CredentialManagement.dll",
+        "D:\\users\\IErmaykin\\.nuget\\packages\\uipath.credentials.activities/1.1.6479.13204\\lib/net40-client/UiPath.Credentials.Activities.dll"
+      ]
+    }
+  ],
+  "Conflicts": [],
+  "ResolvedDependencies": {
+    "AvalonEdit": {
+      "Id": "AvalonEdit",
+      "Version": "5.0.3",
+      "Dependencies": []
+    },
+    "BouncyCastle": {
+      "Id": "BouncyCastle",
+      "Version": "1.8.1",
+      "Dependencies": []
+    },
+    "Caliburn.Micro": {
+      "Id": "Caliburn.Micro",
+      "Version": "3.0.1",
+      "Dependencies": [
+        {
+          "Item1": "Caliburn.Micro.Core",
+          "Item2": "[3.0.1, 3.0.1]"
+        }
+      ]
+    },
+    "Caliburn.Micro.Core": {
+      "Id": "Caliburn.Micro.Core",
+      "Version": "3.0.1",
+      "Dependencies": []
+    },
+    "ClosedXML": {
+      "Id": "ClosedXML",
+      "Version": "0.87.1",
+      "Dependencies": [
+        {
+          "Item1": "DocumentFormat.OpenXml",
+          "Item2": "[2.5.0, )"
+        }
+      ]
+    },
+    "CredentialManagement": {
+      "Id": "CredentialManagement",
+      "Version": "1.0.2",
+      "Dependencies": []
+    },
+    "CsvHelper": {
+      "Id": "CsvHelper",
+      "Version": "2.13.5",
+      "Dependencies": []
+    },
+    "DocumentFormat.OpenXml": {
+      "Id": "DocumentFormat.OpenXml",
+      "Version": "2.5.0",
+      "Dependencies": []
+    },
+    "Extended.Wpf.Toolkit": {
+      "Id": "Extended.Wpf.Toolkit",
+      "Version": "2.8.0",
+      "Dependencies": []
+    },
+    "Humanizer.Core": {
+      "Id": "Humanizer.Core",
+      "Version": "2.4.2",
+      "Dependencies": []
+    },
+    "interop.domino.dll": {
+      "Id": "interop.domino.dll",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "Microsoft.Exchange.WebServices": {
+      "Id": "Microsoft.Exchange.WebServices",
+      "Version": "2.2.0",
+      "Dependencies": []
+    },
+    "Microsoft.Rest.ClientRuntime": {
+      "Id": "Microsoft.Rest.ClientRuntime",
+      "Version": "2.3.10",
+      "Dependencies": [
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[6.0.8, )"
+        }
+      ]
+    },
+    "Microsoft.VisualStudio.OLE.Interop": {
+      "Id": "Microsoft.VisualStudio.OLE.Interop",
+      "Version": "7.10.6071",
+      "Dependencies": []
+    },
+    "Newtonsoft.Json": {
+      "Id": "Newtonsoft.Json",
+      "Version": "10.0.3",
+      "Dependencies": []
+    },
+    "NPOI": {
+      "Id": "NPOI",
+      "Version": "2.4.1",
+      "Dependencies": [
+        {
+          "Item1": "SharpZipLib",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "SharpZipLib": {
+      "Id": "SharpZipLib",
+      "Version": "1.0.0",
+      "Dependencies": []
+    },
+    "UiPath": {
+      "Id": "UiPath",
+      "Version": "9.0.6893.27943",
+      "Dependencies": []
+    },
+    "UiPath.Credentials.Activities": {
+      "Id": "UiPath.Credentials.Activities",
+      "Version": "1.1.6479.13204",
+      "Dependencies": [
+        {
+          "Item1": "CredentialManagement",
+          "Item2": "[1.0.2, )"
+        }
+      ]
+    },
+    "UiPath.Excel.Activities": {
+      "Id": "UiPath.Excel.Activities",
+      "Version": "2.5.3",
+      "Dependencies": [
+        {
+          "Item1": "ClosedXML",
+          "Item2": "[0.87.1, )"
+        },
+        {
+          "Item1": "CsvHelper",
+          "Item2": "[2.13.5, )"
+        },
+        {
+          "Item1": "DocumentFormat.OpenXml",
+          "Item2": "[2.5.0, )"
+        },
+        {
+          "Item1": "Microsoft.VisualStudio.OLE.Interop",
+          "Item2": "[7.10.6071, )"
+        },
+        {
+          "Item1": "NPOI",
+          "Item2": "[2.4.1, )"
+        },
+        {
+          "Item1": "SharpZipLib",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "UiPath.Mail.Activities": {
+      "Id": "UiPath.Mail.Activities",
+      "Version": "1.4.0",
+      "Dependencies": [
+        {
+          "Item1": "Microsoft.Exchange.WebServices",
+          "Item2": "[2.2.0, )"
+        },
+        {
+          "Item1": "BouncyCastle",
+          "Item2": "[1.8.1, )"
+        },
+        {
+          "Item1": "interop.domino.dll",
+          "Item2": "[1.0.0, )"
+        }
+      ]
+    },
+    "UiPath.System.Activities": {
+      "Id": "UiPath.System.Activities",
+      "Version": "18.3.6897.22524",
+      "Dependencies": [
+        {
+          "Item1": "CsvHelper",
+          "Item2": "[2.13.5, )"
+        },
+        {
+          "Item1": "Microsoft.Rest.ClientRuntime",
+          "Item2": "[2.3.10, )"
+        },
+        {
+          "Item1": "Newtonsoft.Json",
+          "Item2": "[10.0.3, )"
+        }
+      ]
+    },
+    "UiPath.UIAutomation.Activities": {
+      "Id": "UiPath.UIAutomation.Activities",
+      "Version": "18.3.6897.22543",
+      "Dependencies": [
+        {
+          "Item1": "AvalonEdit",
+          "Item2": "[5.0.3, )"
+        },
+        {
+          "Item1": "Caliburn.Micro",
+          "Item2": "[3.0.1, )"
+        },
+        {
+          "Item1": "Extended.Wpf.Toolkit",
+          "Item2": "[2.8.0, )"
+        },
+        {
+          "Item1": "Humanizer.Core",
+          "Item2": "[2.4.2, )"
+        },
+        {
+          "Item1": "UiPath.Vision",
+          "Item2": "[1.1.0, )"
+        },
+        {
+          "Item1": "UiPath",
+          "Item2": "[9.0.6893.27943, )"
+        }
+      ]
+    },
+    "UiPath.Vision": {
+      "Id": "UiPath.Vision",
+      "Version": "1.1.0",
+      "Dependencies": []
+    }
+  }
+}
