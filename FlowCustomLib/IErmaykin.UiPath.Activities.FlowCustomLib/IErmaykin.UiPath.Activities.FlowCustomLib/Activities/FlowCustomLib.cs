@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Activities;
-using System.Timers;
+using System.Threading;
 using IErmaykin.UiPath.Activities.FlowCustomLib.Activities;
-
+    
 namespace IErmaykin.UiPath.Activities.FlowCustomLib
 {
     public class FlowCustomLib : CodeActivity
@@ -11,15 +11,17 @@ namespace IErmaykin.UiPath.Activities.FlowCustomLib
         /// Time property
         /// </summary>
         public InArgument<double> Time { get; set; }
-        
+
         /// <summary>
         /// Result flag property
         /// </summary>
         public InArgument<bool> ResultFlag { get; set; }
 
-        // Возможно не пригодится..
-        //public OutArgument<> { get; set; } 
-        
+        /// <summary>
+        /// Second thread field
+        /// </summary>
+        public OutArgument<Thread> SecondThread { get; set; }
+
         /// <summary>
         /// Execute function
         /// </summary>
@@ -29,12 +31,29 @@ namespace IErmaykin.UiPath.Activities.FlowCustomLib
             double inputTime = Time.Get(context);
             bool resultFlag = ResultFlag.Get(context);
 
-            //Activities.Timer timer = new Activities.Timer();
+            try
+            {
+                var secodTread = Flows.createFlows(new ParameterizedThreadStart(this.runFunction), inputTime, resultFlag);
+                SecondThread.Set(context, secodTread);
+            }
+            catch (Exception e) { }
             
+        }
 
-            //timer.SetTimer(inputTime, resultFlag);
-            //timer.Stop();
-            //timer.Dispose();
+        /// <summary>
+        /// Run function
+        /// </summary>
+        /// <param name="obj"></param>
+        public void runFunction(object obj)
+        {
+            var objArray = (object[])obj;
+            var thread = (Thread)objArray[0];
+            double inputTime = (double)objArray[1];
+            bool resultFlag = (bool)objArray[2];
+
+            Thread.Sleep((int)inputTime);
+            thread.Abort();
+
         }
     }
 }
